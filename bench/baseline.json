@@ -1,0 +1,25 @@
+{
+  "fixture": {
+    "tick": 10,
+    "events": 963,
+    "totalFired": 463,
+    "spikeLog": [
+      89,
+      78,
+      96,
+      106,
+      94
+    ],
+    "potentialSum": 186.948849,
+    "weightSum": 323962.76287,
+    "adaptationSum": 5.926946,
+    "strongCount": 0,
+    "refractoryCount": 94
+  },
+  "timeMs": 334.4499340000001,
+  "allTimings": [
+    311.92671599999994,
+    334.4499340000001,
+    479.90964
+  ]
+}
