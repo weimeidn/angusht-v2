@@ -1,0 +1,48 @@
+{
+  "fixture": {
+    "globalTick": 8,
+    "interCoreTraffic": 12426,
+    "routeLog": [
+      "relational",
+      "relational",
+      "relational",
+      "relational",
+      "relational",
+      "relational",
+      "relational",
+      "relational"
+    ],
+    "confidenceLog": [
+      0.700904,
+      0.768723,
+      0.815144,
+      0.838302,
+      0.856807,
+      0.883561,
+      0.872188,
+      0.918664
+    ],
+    "neuromodulators": {
+      "dopamine": 1,
+      "serotonin": 0.786047,
+      "acetylcholine": 1,
+      "norepinephrine": 0.406648
+    },
+    "decisionGroupActivities": [
+      1.632249,
+      6.942542,
+      24.314499,
+      2.113253
+    ],
+    "decisionDominance": 0.69465,
+    "potentialSum": 154.137543,
+    "weightSum": 1944125.371653,
+    "projWeightSum": 680653.64185
+  },
+  "timeMs": 327.9904609999994,
+  "allTimings": [
+    317.9717700000001,
+    327.9904609999994,
+    683.196058
+  ]
+}
