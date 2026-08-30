@@ -1,6 +1,6 @@
 // ═══════════════════════════════════════════════════════════════════
 // Angusht — регрессионный бенчмарк для neural-core.ts
-// ════════════════════════════════════════════════════════════════════
+// ═══════════════════════════════════════════════════════════════════
 // В проекте не было ни одного теста. Это не полноценный юнит-тест
 // (нет фреймворка), но даёт ровно то, чего не хватало для безопасного
 // рефакторинга симуляции (см. п.6/7 приоритетного списка):
@@ -29,7 +29,7 @@
 // Запуск:
 //   npx tsx scripts/bench-neural-core.ts --save bench/baseline.json
 //   npx tsx scripts/bench-neural-core.ts --compare bench/baseline.json
-// ═══════════════════════════════════════════════════════════
+// ═══════════════════════════════════════════════════════════════════
 
 import { writeFileSync, readFileSync } from 'fs';
 import { NeuralCore, CORE_CONFIGS } from '../src/lib/neuromorphic/neural-core';
@@ -123,7 +123,7 @@ function benchTiming(): number {
 function main() {
   const args = process.argv.slice(2);
   const fixture = buildFixture();
-  // Берём медиану из трёх прогонов таймингЯ единичный замер шумный.
+  // Берём медиану из трёх прогонов таймингов — единичный замер шумный.
   const timings = [benchTiming(), benchTiming(), benchTiming()].sort((a, b) => a - b);
   const timeMs = timings[1];
 
